@@ -1,0 +1,43 @@
+nav {
+  border: solid 1px red;
+  height: 50em;
+  width: 4em;
+  float: left;
+}
+
+h1 {
+  margin: 1em;
+  border: solid 1px black;
+  width: 100%;
+  margin-left: 2em;
+  padding: 1em;
+
+}
+
+#welcome-message {
+  border: solid orange 1px;
+  display: block;
+  height: 3em;
+  margin-left: 0;
+}
+
+.cells {
+  display: inline;
+  height: 3em;
+  width: 7em;
+  background-color: grey;
+}
+
+section {
+  border: solid 1px blue;
+  display: inline;
+  float: left;
+  width: 40em;
+  height: 35em;
+  margin: 1em 1em 1em 1em;
+}
+
+#elephant-logo {
+  height: 4em;
+  width: 4em;
+}
