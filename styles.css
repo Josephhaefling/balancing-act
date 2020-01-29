@@ -1,8 +1,24 @@
+body {
+  background-color: lightgrey;
+}
+/*navigation bar*/
 nav {
   border: solid 1px red;
   height: 50em;
   width: 4em;
   float: left;
+}
+
+.nav-bar {
+  height: 20em;
+  width: 4em;
+  margin: 10em 0;
+}
+
+.nav-icons{
+  height: 2.5em;
+  width: 2.5em;
+  margin: 1em .75em;
 }
 
 h1 {
@@ -11,7 +27,16 @@ h1 {
   width: 100%;
   margin-left: 2em;
   padding: 1em;
+}
 
+h2{
+  display: inline;
+}
+
+#welcome {
+  display: inline;
+  margin: .75em 1em;
+  padding: .5em 0 .5em 1em;
 }
 
 #welcome-message {
@@ -21,11 +46,23 @@ h1 {
   margin-left: 0;
 }
 
-.cells {
+.info-cells {
   display: inline;
-  height: 3em;
-  width: 7em;
+  height: 5em;
+  width: 11em;
   background-color: grey;
+}
+
+.account-cells {
+  display: block;
+  height: 4em;
+  margin: .5em 0;
+}
+
+.acct-img {
+  height: 2em;
+  width: 2em;
+  padding: 1em 1em;
 }
 
 section {
@@ -40,4 +77,9 @@ section {
 #elephant-logo {
   height: 4em;
   width: 4em;
+}
+
+button {
+  float: right;
+  display: inline;
 }
