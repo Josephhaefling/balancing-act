@@ -64,7 +64,7 @@ section {
 
 .info-cells {
   border:magenta;
-  margin: 1em;
+  margin: 3em 1em;
   display: inline-block;
   height: 5em;
   width: 11em;
@@ -72,8 +72,21 @@ section {
 }
 
 div {
-    margin: 1em 1em;
-    display: inline-block;
+  bottom: 1.5em;
+  margin: 1em 1em;
+  display: inline-block;
+  position: relative;
+  width: 9em;
+}
+
+.acct-cell-left {
+  bottom: 1.5em;
+  margin: 1em 5em 1em 4em;
+}
+
+.acct-cell-right {
+  bottom: 1.5em;
+  margin: 1em 1em 1em 5em;
 }
 
 .account-cells {
@@ -100,10 +113,12 @@ button {
   display: inline;
   background-color: #1CA3BA;
   color: white;
-  height: 1.5em;
+  height: 2em;
   width: 12em;
   border-radius: 10em;
   font-size: 1em;
+  padding: 5px 0;
+  margin: 2em 1em 0 0;
 }
 
 #close-tab {
