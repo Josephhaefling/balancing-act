@@ -1,11 +1,14 @@
 body {
-  background-color: lightgrey;
+  background-color: #F5F5F5;
+  color: #363636;
+  font-family: 'Biryani', sans-serif;
 }
 /*navigation bar*/
 nav {
   border: solid 1px red;
   height: 50em;
   width: 4em;
+  //display: inline-block;
   float: left;
 }
 
@@ -22,6 +25,7 @@ nav {
 }
 
 h1 {
+  display: block;
   margin: 1em;
   border: solid 1px black;
   width: 100%;
@@ -29,31 +33,55 @@ h1 {
   padding: 1em;
 }
 
-h2{
-  display: inline;
+h2 {
+  display: inline-block;
+  margin: 1em 1em;
+  width: 15em;
+}
+
+h3 {
+  display: inline-block;
+  height: 1em;
+}
+
+section {
+  border: solid 1px blue;
+  display: inline-block;
+  float: left;
+  width: 40em;
+  height: 35em;
+  margin: 1em 1em 1em 1em;
+  background-color: white;
 }
 
 #welcome {
-  display: inline;
-  margin: .75em 1em;
+  display: inline-block;
   padding: .5em 0 .5em 1em;
 }
 
 #welcome-message {
   border: solid orange 1px;
-  display: block;
-  height: 3em;
-  margin-left: 0;
+  display: inline-block;
+  height: 7em;
+  margin: 0;
 }
 
 .info-cells {
-  display: inline;
+  border:magenta;
+  margin: 1em;
+  display: inline-block;
   height: 5em;
   width: 11em;
-  background-color: grey;
+}
+
+div {
+    height: 4em;
+    margin: 1em 1em;
+    display: inline-block;
 }
 
 .account-cells {
+  border: 1px solid black;
   display: block;
   height: 4em;
   margin: .5em 0;
@@ -65,15 +93,6 @@ h2{
   padding: 1em 1em;
 }
 
-section {
-  border: solid 1px blue;
-  display: inline;
-  float: left;
-  width: 40em;
-  height: 35em;
-  margin: 1em 1em 1em 1em;
-}
-
 #elephant-logo {
   height: 4em;
   width: 4em;
@@ -82,4 +101,24 @@ section {
 button {
   float: right;
   display: inline;
+  background-color: #1CA3BA;
+  color: white;
+  height: 1.5em;
+  width: 12em;
+  border-radius: 10em;
+  font-size: 1em;
+}
+#close-tab {
+  height: 1em;
+  width: 1em;
+  border-radius: 0;
+  color: white;
+}
+
+th, td {
+  background: white;
+}
+
+td {
+  border: red;
 }
