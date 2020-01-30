@@ -40,8 +40,12 @@ h2 {
 }
 
 h3 {
-  display: inline-block;
-  height: 1em;
+  background: linear-gradient(#8ED1DC, #E3F4F6);
+  background-color: white;
+  display: block;
+  height: 5em;
+  margin: 0;
+  width: 34em;
 }
 
 section {
@@ -50,20 +54,12 @@ section {
   float: left;
   width: 40em;
   height: 35em;
-  margin: 1em 1em 1em 1em;
-  background-color: white;
-}
-
-#welcome {
-  display: inline-block;
-  padding: .5em 0 .5em 1em;
 }
 
 #welcome-message {
-  border: solid orange 1px;
-  display: inline-block;
-  height: 7em;
-  margin: 0;
+  float: left;
+  height: 4em;
+  position: relative;
 }
 
 .info-cells {
@@ -72,10 +68,10 @@ section {
   display: inline-block;
   height: 5em;
   width: 11em;
+  background-color: white;
 }
 
 div {
-    height: 4em;
     margin: 1em 1em;
     display: inline-block;
 }
@@ -85,6 +81,7 @@ div {
   display: block;
   height: 4em;
   margin: .5em 0;
+  background-color: white;
 }
 
 .acct-img {
@@ -108,11 +105,19 @@ button {
   border-radius: 10em;
   font-size: 1em;
 }
+
 #close-tab {
-  height: 1em;
-  width: 1em;
   border-radius: 0;
+  bottom: 3em;
   color: white;
+  height: 1em;
+  left: 39em;
+  position: absolute;
+  width: 1em;
+}
+
+.columns {
+  margin: 1em 0 1em 1.5em;
 }
 
 th, td {
