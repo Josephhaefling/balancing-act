@@ -6,16 +6,17 @@ body {
 /*navigation bar*/
 nav {
   border: solid 1px red;
-  height: 50em;
+  height: 28em;
   width: 4em;
   //display: inline-block;
   float: left;
 }
 
 .nav-bar {
-  height: 20em;
+  border: solid 1px red;
+  height: 27em;
   width: 4em;
-  margin: 10em 0;
+  margin: 10.5em 0;
 }
 
 .nav-icons{
@@ -26,21 +27,20 @@ nav {
 
 h1 {
   display: block;
-  margin: 1em;
-  border: solid 1px black;
+  /* margin: 1em; */
   width: 100%;
-  margin-left: 2em;
-  padding: 1em;
+  margin-left: 0 0  1em 2em;
+  padding: 0 1em;
 }
 
 h2 {
   display: inline-block;
-  margin: 1em 1em;
+  margin: .75em 1em;
   width: 15em;
 }
 
 h3 {
-  background: linear-gradient(#8ED1DC, #E3F4F6);
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   background-color: white;
   display: block;
   height: 5em;
@@ -48,8 +48,11 @@ h3 {
   width: 34em;
 }
 
+h4{
+  margin: .5 1em .5em 1em;
+}
+
 section {
-  border: solid 1px blue;
   display: inline-block;
   float: left;
   width: 40em;
@@ -63,8 +66,7 @@ section {
 }
 
 .info-cells {
-  border:magenta;
-  margin: 3em 1em;
+  margin: 3em 1em 1em;
   display: inline-block;
   height: 5em;
   width: 11em;
@@ -73,10 +75,14 @@ section {
 
 div {
   bottom: 1.5em;
-  margin: 1em 1em;
+  margin: 1em 1em .5em 1em;
   display: inline-block;
   position: relative;
   width: 9em;
+}
+
+span {
+  box-shadow: rgba(0,0,0,0.05);
 }
 
 .acct-cell-left {
@@ -90,7 +96,6 @@ div {
 }
 
 .account-cells {
-  border: 1px solid black;
   display: block;
   height: 4em;
   margin: .5em 0;
@@ -108,7 +113,7 @@ div {
   width: 4em;
 }
 
-button {
+.blue-button {
   float: right;
   display: inline;
   background-color: #1CA3BA;
@@ -123,10 +128,9 @@ button {
 
 #close-tab {
   border-radius: 0;
-  bottom: 3em;
-  color: white;
+  bottom: 4.5em;
   height: 1em;
-  left: 39em;
+  left: 56.5em;
   position: absolute;
   width: 1em;
 }
@@ -137,6 +141,7 @@ button {
 
 th, td {
   background: white;
+  border-bottom: solid #F5F5F5 1px;
 }
 
 td {
