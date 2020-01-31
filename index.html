@@ -1,16 +1,17 @@
 <head>
   <title>Balancing Act</title>
   <link href = "styles.css" type = "text/css" rel = "stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
+  <link href = "https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
 </head>
+<html>
 <body>
   <nav>
     <img id = "elephant-logo" src = "assets/elephant.svg" alt = "elephant balancing on a ball"></img>
     <section class = "nav-bar">
       <a href = "#">
-        <img src = "assets/dashboard.svg" class = "nav-icons"></img>
+        <img src="assets/dashboard.svg" class = "nav-icons"></img>
       </a>
-      <a href = "#">
+      <a href="#">
         <img src = "assets/transactions.svg" class = "nav-icons"></img>
       </a>
       <a href = "#">
@@ -20,7 +21,7 @@
   </nav>
   <h1>Balancing Act</h1>
   <section class = "columns">
-    <section id = "welcome-message">
+    <section id="welcome-message">
       <h3>Welcome, Oscar!</h3>
       <input id = "close-tab" type = "image" src = "assets/close.svg" />
     </section>
@@ -67,10 +68,12 @@
     <h2>Recent Transactions</h2>
     <button class = "blue-button">New Transaction</button>
     <table>
-      <th>date</th>
-      <th>Payee</th>
-      <th>Inflow</th>
-      <th>Outflow</th>
+      <tr>
+        <th>Date</th>
+        <th>Payee</th>
+        <th>Inflow</th>
+        <th>Outflow</th>
+      </tr>
       <tr>
         <td>Oct 25, 2019</td>
         <td>Target</td>
@@ -127,4 +130,6 @@
       </tr>
     </table>
   </section>
+  <script src="main.js"></script>
 </body>
+</html>
