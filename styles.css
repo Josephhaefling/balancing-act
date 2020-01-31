@@ -26,8 +26,8 @@ nav {
 }
 
 .nav-icons:hover {
-  border-left: solid 3px #1CA3BA;
-  padding: .75em .4em;
+  border-left: solid .2em #1CA3BA;
+  padding: 1em .4em 1em .2em;
 }
 
 h1 {
