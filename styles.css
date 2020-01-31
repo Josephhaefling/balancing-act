@@ -29,7 +29,7 @@ h1 {
   /* margin: 1em; */
   width: 100%;
   margin-left: 0 0  1em 2em;
-  padding: 0 1em;
+  padding: 0 2.75em;
 }
 
 h2 {
@@ -48,6 +48,7 @@ h3 {
 }
 
 h4{
+  text-transform: uppercase;
   margin: .5 1em .5em 1em;
 }
 
@@ -85,7 +86,7 @@ div {
 }
 
 span {
-  box-shadow: rgba(0,0,0,0.05);
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
 }
 
 .acct-cell-left {
@@ -118,6 +119,7 @@ span {
 
 .blue-button {
   float: right;
+  cursor: pointer;
   display: inline;
   background-color: #1CA3BA;
   color: white;
