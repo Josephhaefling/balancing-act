@@ -3,26 +3,32 @@ body {
   color: #363636;
   font-family: 'Biryani', sans-serif;
 }
+
 /*navigation bar*/
 nav {
   background: #fff;
+  float: left;
   height: 28em;
   width: 4em;
-  float: left;
+}
+
+#elephant-logo {
+  height: 4em;
+  width: 4em;
 }
 
 .nav-bar {
   background: #fff;
   height: 27em;
-  width: 4em;
   margin: 10.5em 0;
+  width: 4em;
 }
 
 .nav-icons{
   height: 2.5em;
-  width: 2.5em;
   margin: .5em .20em;
   padding: 1em .4em;
+  width: 2.5em;
 }
 
 .nav-icons:hover {
@@ -30,43 +36,13 @@ nav {
   padding: 1em .4em 1em .2em;
 }
 
+/* Main Header */
 h1 {
   border-radius: 1em;
   display: block;
-  width: 100%;
   margin-left: 0 0  1em 2em;
   padding: 0 2.75em;
-}
-
-h2 {
-  display: inline-block;
-  margin: .75em 1em;
-  width: 15em;
-}
-
-h3 {
-  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
-  background-color: white;
-  display: block;
-  height: 5em;
-  margin: 0;
-  width: 34em;
-}
-
-h4, h6 {
-  margin: 1em 1em .5em 1em;
-  text-transform: uppercase;
-}
-
-section {
-  display: inline-block;
-  float: left;
-  width: 40em;
-  height: 35em;
-}
-
-.close-welcome {
-  display: none;
+  width: 100%;
 }
 
 #welcome-message {
@@ -75,67 +51,13 @@ section {
   position: relative;
 }
 
-.info-cells {
-  margin: 3em 1em 1em;
-  display: inline-block;
-  height: 5em;
-  width: 11em;
+h3 {
   background-color: white;
-}
-
-div {
-  bottom: 1.5em;
-  margin: 1em 1em .5em 1em;
-  display: inline-block;
-  position: relative;
-  width: 9em;
-}
-
-span {
-  border-radius: .25em;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
-}
-
-.acct-cell-left {
-  bottom: 1.5em;
-  margin: 1em 5em 1em 4em;
-}
-
-.acct-cell-right {
-  bottom: 1.5em;
-  margin: 1em 1em 1em 5em;
-}
-
-.account-cells {
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   display: block;
-  height: 4em;
-  margin: .5em 0;
-  background-color: white;
-}
-
-.acct-img {
-  height: 2em;
-  width: 2em;
-  padding: 1em 1em;
-}
-
-#elephant-logo {
-  height: 4em;
-  width: 4em;
-}
-
-.blue-button {
-  float: right;
-  cursor: pointer;
-  display: inline;
-  background-color: #1CA3BA;
-  color: white;
-  height: 2em;
-  width: 12em;
-  border-radius: 10em;
-  font-size: 1em;
-  padding: 5px 0;
-  margin: 2em 1em 0 0;
+  height: 5em;
+  margin: 0;
+  width: 34em;
 }
 
 #close-tab {
@@ -147,10 +69,94 @@ span {
   width: 1em;
 }
 
+section {
+  display: inline-block;
+  float: left;
+  height: 35em;
+  width: 40em;
+}
+
 .columns {
   margin: 1em 0 1em 1.5em;
 }
 
+.close-welcome {
+  display: none;
+}
+
+.info-cells {
+  background-color: white;
+  display: inline-block;
+  height: 5em;
+  margin: 3em 1em 1em;
+  width: 11em;
+}
+
+h4, h6 {
+  margin: 1em 1em .5em 1em;
+  text-transform: uppercase;
+}
+
+/* Income Expenses Credit Score */
+h2 {
+  display: inline-block;
+  margin: .75em 1em;
+  width: 15em;
+}
+
+.account-cells {
+  background-color: white;
+  display: block;
+  height: 4em;
+  margin: .5em 0;
+}
+
+/* Accounts Section */
+.blue-button {
+  background-color: #1CA3BA;
+  border-radius: 10em;
+  color: white;
+  cursor: pointer;
+  display: inline;
+  float: right;
+  font-size: 1em;
+  height: 2em;
+  margin: 2em 1em 0 0;
+  padding: 5px 0;
+  width: 12em;
+}
+
+.acct-img {
+  height: 2em;
+  padding: 1em 1em;
+  width: 2em;
+}
+
+/* Account Cells */
+.acct-cell-left {
+  bottom: 1.5em;
+  margin: 1em 5em 1em 4em;
+}
+
+.acct-cell-right {
+  bottom: 1.5em;
+  margin: 1em 1em 1em 5em;
+}
+
+div {
+  bottom: 1.5em;
+  display: inline-block;
+  margin: 1em 1em .5em 1em;
+  position: relative;
+  width: 9em;
+}
+
+span {
+  border-radius: .25em;
+  box-shadow: 1px 1px rgba(0,0,0,0.05);
+}
+
+/* table */
 table {
   background-color: #fff;
   height: 27em;
