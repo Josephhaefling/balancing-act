@@ -21,7 +21,13 @@ nav {
 .nav-icons{
   height: 2.5em;
   width: 2.5em;
-  margin: 1em .75em;
+  margin: .5em .20em;
+  padding: 1em .4em;
+}
+
+.nav-icons:hover {
+  border-left: solid 3px #1CA3BA;
+  padding: .75em .4em;
 }
 
 h1 {
@@ -47,9 +53,9 @@ h3 {
   width: 34em;
 }
 
-h4{
+h4, h6 {
+  margin: 1em 1em .5em 1em;
   text-transform: uppercase;
-  margin: .5 1em .5em 1em;
 }
 
 section {
@@ -147,11 +153,15 @@ span {
 table {
   background-color: #fff;
   height: 27em;
-  width: 40em;
+  width: 38em;
 }
 
 td {
   border-bottom: solid 1px #F5F5F5;
+  margin-left: 2em;
+  padding:0 1em;
+}
 
-
+.payee {
+  padding: 0 4em 0 0;
 }
