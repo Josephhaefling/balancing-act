@@ -10,12 +10,14 @@ function closeWelcomeMessage() {
 // Wallet Button
 var walletBtn = document.querySelector('#wallet-button');
 var walletViewCol = document.querySelector('main');
+var mainWallet = document.querySelector('#main-wallet');
 
 function walletView() {
   console.log('hi');
   walletBtn.classList.add('button-selected');
   walletViewCol.classList.add('close-window');
   dashboardBtn.classList.remove('button-selected');
+  // mainWallet.classList.remove('.close-window');
 }
 
 walletBtn.addEventListener('click', walletView);

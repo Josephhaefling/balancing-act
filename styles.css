@@ -170,6 +170,7 @@ table {
   background-color: #fff;
   height: 27em;
   width: 38em;
+  border: solid 1px blue;
 }
 
 td {
@@ -178,6 +179,65 @@ td {
   padding:0 1em;
 }
 
+/* Wallet Page */
+
+
+
+.wallet-columns {
+  margin: 2em 2em 2em 0;
+  border: solid 1px blue;
+  height: 39em;
+}
+
+#transaction-header {
+  width: 10em;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.small-button {
+  height: 2em;
+  width: 6em;
+  border-radius: 10em;
+  border: solid 2px #1CA3BA;
+  background-color: white;
+  color: #1CA3BA;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 2em 1em 1em 0;
+  padding: 5px 0;
+}
+
+#wallet-table {
+  height: 30em;
+  margin: 1em;
+}
+
 .payee {
   padding: 0 4em 0 0;
+}
+
+.hide {
+  display: none;
+}
+
+#new-trans-header {
+  margin-top: 1em;
+  width:30em;
+  background-color: #FFF;
+  background-image: none;
+}
+
+.transaction-input {
+  display: block;
+  height: 4em;
+  width: 10em;
+  margin: 0 1em 1em 1em;
+}
+
+form {
+  border: solid 2px red;
+  height: 34em;
+  width: 30em;
+  background-color: #fff;
 }
