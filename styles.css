@@ -17,6 +17,14 @@ nav {
   width: 4em;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
 .nav-bar {
   background: #fff;
   height: 27em;
@@ -25,15 +33,16 @@ nav {
 }
 
 .nav-icons{
-  height: 2.5em;
+  height: 3em;
   margin: .5em .20em;
   padding: 1em .4em;
-  width: 2.5em;
+  width: 3em;
+  border-left: solid .2em transparent;
+  outline: none;
 }
 
-.nav-icons:hover {
+.button-selected {
   border-left: solid .2em #1CA3BA;
-  padding: 1em .4em 1em .2em;
 }
 
 /* Main Header */
