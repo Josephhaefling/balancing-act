@@ -33,12 +33,12 @@ li {
 }
 
 .nav-icons{
+  border-left: solid .2em transparent;
   height: 3em;
   margin: .5em .20em;
+  outline: none;
   padding: 1em .4em;
   width: 3em;
-  border-left: solid .2em transparent;
-  outline: none;
 }
 
 .button-selected {
@@ -74,6 +74,7 @@ h3 {
   bottom: 4.5em;
   height: 1em;
   left: 56.5em;
+  outline: none;
   position: absolute;
   width: 1em;
 }
@@ -124,13 +125,14 @@ h2 {
 .blue-button {
   background-color: #1CA3BA;
   border-radius: 10em;
-  color: white;
+  color: #fff;
   cursor: pointer;
   display: inline;
-  float: right;
+  /* float: right; */
   font-size: 1em;
   height: 2em;
   margin: 2em 1em 0 0;
+  outline: none;
   padding: 5px 0;
   width: 12em;
 }
@@ -162,82 +164,104 @@ div {
 
 span {
   border-radius: .25em;
-  box-shadow: 1px 1px rgba(0,0,0,0.05);
+  box-shadow: .15em .15em .15em .15em rgba(0,0,0,0.05);
+}
+#acct-span {
+  box-shadow: none;
 }
 
 /* table */
 table {
   background-color: #fff;
-  height: 27em;
+  box-shadow: .15em .15em .15em .15em rgba(0,0,0,0.05);
+  height: 32em;
   width: 38em;
-  border: solid 1px blue;
+}
+
+th{
+  text-al ign: left;
+  padding-left: 1em;
 }
 
 td {
   border-bottom: solid 1px #F5F5F5;
+  font-size: .75em;
   margin-left: 2em;
   padding:0 1em;
 }
 
-/* Wallet Page */
-
-
-
 .wallet-columns {
-  margin: 2em 2em 2em 0;
-  border: solid 1px blue;
   height: 39em;
+  margin: 2em 2em 2em 0;
 }
 
 #transaction-header {
-  width: 10em;
   display: inline-block;
   margin-top: 1em;
+  width: 10em;
+}
+
+#select-small-button {
+  background-color: #1CA3BA;
+  color: #fff;
 }
 
 .small-button {
-  height: 2em;
-  width: 6em;
-  border-radius: 10em;
-  border: solid 2px #1CA3BA;
   background-color: white;
+  border: solid 2px #1CA3BA;
+  border-radius: 10em;
   color: #1CA3BA;
   cursor: pointer;
   font-size: 1em;
+  height: 2em;
   margin: 2em 1em 1em 0;
   padding: 5px 0;
+  width: 6em;
 }
 
 #wallet-table {
-  height: 30em;
+  height: 32em;
   margin: 1em;
+  box-shadow: .25em .25em .25em .25em rgba(0,0,0,0.05);
 }
 
 .payee {
-  padding: 0 4em 0 0;
-}
-
-.hide {
-  display: none;
+  padding: 0 4em 0 1em;
 }
 
 #new-trans-header {
-  margin-top: 1em;
-  width:30em;
   background-color: #FFF;
   background-image: none;
+  height: 2em;
+  margin: .5em 9em;
+  width:9em;
+}
+
+h5{
+  height: 2em;
+  margin: 1em 9em 0 4em;
+  width: 12em;
 }
 
 .transaction-input {
   display: block;
-  height: 4em;
-  width: 10em;
-  margin: 0 1em 1em 1em;
+  height: 2em;
+  margin: 0 1em 1em 5em;
+  outline: none;
+  width: 32em;
+  box-shadow: .15em .15em .15em .15em rgba(0,0,0,0.05);
+  border: 0;
 }
 
 form {
-  border: solid 2px red;
-  height: 34em;
-  width: 30em;
   background-color: #fff;
+  height: 32em;
+  margin: 6.5em 5em 1em;
+  box-shadow: .25em .25em .25em .25em rgba(0,0,0,0.05);
+  width: 30em;
+}
+#log-expense-button {
+  width: 10em;
+  float: left;
+  margin: 0 0 0 3em;
 }

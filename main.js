@@ -17,7 +17,7 @@ function walletView() {
   walletBtn.classList.add('button-selected');
   walletViewCol.classList.add('close-window');
   dashboardBtn.classList.remove('button-selected');
-  // mainWallet.classList.remove('.close-window');
+  mainWallet.classList.remove('.close-window');
 }
 
 walletBtn.addEventListener('click', walletView);

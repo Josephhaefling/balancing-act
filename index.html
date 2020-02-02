@@ -20,7 +20,7 @@
       </li>
     </ul>
   </nav>
-  <main class = "hide">
+  <main>
   <h1>Balancing Act</h1>
   <section class = "columns">
     <section id = "welcome-message">
@@ -40,7 +40,7 @@
           <h6>Credit Score</h6>
           <h4>673</h4>
       </span>
-      <span>
+      <span id = "acct-span">
         <h2>Accounts</h2>
         <button class = "blue-button">Manage Accounts</button>
       </span>
@@ -136,7 +136,7 @@
 <main id= "main-wallet">
   <section class = "wallet-columns">
     <h2 id= "transaction-header">Transactions</h2>
-    <button class = "blue-button small-button">All</button>
+    <button class = "blue-button small-button" id = "select-small-button">All</button>
     <button class = "small-button" type="button" name="button">Inflow</button>
     <button class = "small-button" type="button" name="button">Outflow</button>
   <table id = "wallet-table">
@@ -148,105 +148,105 @@
       <th>Outflow</th>
     </tr>
     <tr>
-      <td>Oct 25, 2019</td>
+      <td>10-25-2019</td>
       <td>Credit Card</td>
       <td class = "payee">Target</td>
       <td>-</td>
       <td>$82.35</td>
     </tr>
     <tr>
-      <td>Oct 24, 2019</td>
+      <td>10-24-2019</td>
       <td>Credit Card</td>
       <td class = "payee">Express</td>
       <td>-</td>
       <td>$212.24</td>
     </tr>
     <tr>
-      <td>Oct 22, 2019</td>
+      <td>10-22-2019</td>
       <td>Checking</td>
       <td class = "payee">Paycheck</td>
       <td>$1319.12</td>
       <td>-</td>
     </tr>
     <tr>
-      <td>Oct 21, 2019</td>
+      <td>10-21-2019</td>
       <td>Credit Card</td>
       <td class = "payee">Trader Joe's</td>
       <td>-</td>
       <td>$54.92</td>
     </tr>
     <tr>
-      <td>Oct 20, 2019</td>
+      <td>10-20-2019</td>
       <td>Credit Card</td>
       <td class = "payee">Shell</td>
       <td>-</td>
       <td>$46.23</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-19-2019</td>
       <td>Savings</td>
       <td class = "payee">Rent</td>
       <td>$800.00</td>
       <td>-</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-19-2019</td>
       <td>Checking</td>
       <td class = "payee">Hapa Sushi</td>
       <td>-</td>
       <td>$13.97</td>
     </tr>
     <tr>
-      <td>Oct 18, 2019</td>
+      <td>10-18-2019</td>
       <td>Credit Card</td>
       <td class = "payee">Pig Train</td>
       <td>-</td>
       <td>$4.83</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-18-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
       <td>$6.00</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-17-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
       <td>$6.00</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-16-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
       <td>$6.00</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-15-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
       <td>$6.00</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-14-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
       <td>$6.00</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-13-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
       <td>$6.00</td>
     </tr>
     <tr>
-      <td>Oct 19, 2019</td>
+      <td>10-12-2019</td>
       <td>Checking</td>
       <td class = "payee">RTD</td>
       <td>-</td>
@@ -257,18 +257,31 @@
 <section class = "wallet-columns">
   <form>
     <h3 id = "new-trans-header">New Transaction</h3>
-  <input type="text" name="" value="" class = "transaction-input">
-  <input type="text" name="" value="" class = "transaction-input">
-  <input type="text" name="" value="" class = "transaction-input">
-    <select class="" name="" class = "transaction-input">
-
+    <h5>Type of Transaction:</h5>
+    <select name="" class = "transaction-input">
+      <option value="Expense">Expense</option>
+      <option value="Gettin Paid">Gettin Paid</option>
+      <option value="Stuff">Stuff</option>
     </select>
-    <select class="" name="" class = "transaction-input">
-
-    </select>  <input type="text" name="" value="">
-    <select class="" name="" class = "transaction-input">
-
+    <h5>Category:</h5>
+    <select name="" class = "transaction-input">
+      <option value="">-Select One-</option>
+      <option value="">-Select One-</option>
+      <option value="">-Select One-</option>
     </select>
+    <h5>Account From:</h5>
+    <select name="" class = "transaction-input">
+      <option value="">-Select One-</option>
+      <option value="">-Select One-</option>
+      <option value="">-Select One-</option>
+    </select>
+    <h5>Payee:</h5>
+    <input type="text" name="" value="Type of Transaction" class = "transaction-input">
+    <h5>Out Flow:</h5>
+    <input type="text" name="" value="" class = "transaction-input">
+    <h5>Category:</h5>
+    <input type="text" name="" value="" class = "transaction-input">
+    <button type="button" name="button" class = "blue-button" id = "log-expense-button">Log Expense</button>
   </form>
 </section>
 </main>
