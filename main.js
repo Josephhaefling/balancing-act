@@ -17,7 +17,7 @@ function walletView() {
   walletBtn.classList.add('button-selected');
   walletViewCol.classList.add('close-window');
   dashboardBtn.classList.remove('button-selected');
-  mainWallet.classList.remove('.close-window');
+  mainWallet.classList.remove('close-window');
 }
 
 walletBtn.addEventListener('click', walletView);
@@ -29,5 +29,7 @@ function selectDashboard() {
   dashboardBtn.classList.add('button-selected');
   walletBtn.classList.remove('button-selected');
   walletViewCol.classList.remove('close-window');
+  mainWallet.classList.add('close-window');
+
 }
 dashboardBtn.addEventListener('click', selectDashboard);
