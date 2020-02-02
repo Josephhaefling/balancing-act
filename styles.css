@@ -200,11 +200,6 @@ td {
   width: 10em;
 }
 
-#select-small-button {
-  background-color: #1CA3BA;
-  color: #fff;
-}
-
 .small-button {
   background-color: white;
   border: solid 2px #1CA3BA;
@@ -214,8 +209,14 @@ td {
   font-size: 1em;
   height: 2em;
   margin: 2em 1em 1em 0;
+  outline: none;
   padding: 5px 0;
   width: 6em;
+}
+
+.small-button:focus {
+  background-color: #1CA3BA;
+  color: #fff;
 }
 
 #wallet-table {
